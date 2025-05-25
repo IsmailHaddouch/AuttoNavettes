@@ -1,0 +1,26 @@
+🚍 Plateforme de Gestion des Navettes des Autocars
+Application web développée pour faciliter la gestion des offres d’abonnement aux navettes entre différentes villes, destinée aux sociétés de transport et aux utilisateurs souhaitant s’abonner à un service de transport régulier.
+
+🎯 Objectifs
+Permettre aux sociétés de transport de créer des offres d’abonnement (navettes), en précisant la période, les horaires, les villes de départ/arrivée, la capacité et la description de l’autocar.
+
+Offrir aux utilisateurs la possibilité de consulter, rechercher et s’abonner à des offres disponibles entre deux villes.
+
+Gérer les demandes personnalisées des utilisateurs pour des trajets non encore proposés.
+
+Éviter les doublons de demandes et comptabiliser le nombre de clients intéressés par une même demande.
+
+Permettre aux sociétés de consulter et prendre en charge les demandes exprimées pour lancer de nouvelles offres.
+
+🔐 Fonctionnalités principales
+Authentification des utilisateurs (clients & sociétés)
+
+Création et gestion des offres de navettes
+
+Recherche d’abonnements disponibles par ville et période
+
+Abonnement des utilisateurs à une offre active
+
+Soumission et gestion des demandes personnalisées
+
+Consultation des demandes par les sociétés avec le nombre d’utilisateurs intéressés
