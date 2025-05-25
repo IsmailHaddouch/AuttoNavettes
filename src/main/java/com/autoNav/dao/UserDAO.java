@@ -2,8 +2,8 @@ package com.autoNav.dao;
 
 import java.sql.*;
 
+import com.autoNav.jdbc.DBConnection;
 import com.autoNav.model.User;
-import com.autoNav.util.DBConnection;
 
 public class UserDAO {
 	

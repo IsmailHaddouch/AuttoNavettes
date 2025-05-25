@@ -3,8 +3,8 @@ package com.autoNav.dao;
 import java.sql.*;
 import java.util.*;
 
+import com.autoNav.jdbc.DBConnection;
 import com.autoNav.model.Offer;
-import com.autoNav.util.DBConnection;
 
 public class OfferDAO {
 	

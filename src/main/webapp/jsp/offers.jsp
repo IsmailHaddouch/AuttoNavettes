@@ -13,9 +13,9 @@
 
         <form method="get" action="${pageContext.request.contextPath}/offers" class="search-form">
             <input type="text" name="departureCity" placeholder="Departure City" value="${param.departureCity}" />
-            <input type="text" name="arrivalCity" placeholder="Arrival City" value="${param.arrivalCity}" />
-            <input type="time" name="departureTime" placeholder="Departure Time" value="${param.departureTime}" />
-            <input type="time" name="arrivalTime" placeholder="Arrival Time" value="${param.arrivalTime}" />
+            <input type="text" name="arrivalCity" placeholder="Arrival City" value="${param.arrivalCity}" /><br>
+            <input type="text" name="departureTime" placeholder="Departure Time ex:'17:00'" value="${param.departureTime}" />
+            <input type="text" name="arrivalTime" placeholder="Arrival Time ex:'19:00'" value="${param.arrivalTime}" /><br>
             <input type="number" name="price" placeholder="Max Price" value="${param.price}" />
             <button type="submit">Search</button>
         </form>

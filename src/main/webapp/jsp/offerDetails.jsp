@@ -27,7 +27,7 @@
                         <c:otherwise>
                             <form action="${pageContext.request.contextPath}/subscribe" method="post">
                                 <input type="hidden" name="offerId" value="${offer.id}" />
-                                <input type="submit" value="Subscribe" />
+                                <button type="submit">Subscribe</button>
                             </form>
                         </c:otherwise>
                     </c:choose>

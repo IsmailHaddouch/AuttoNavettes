@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.autoNav.jdbc.DBConnection;
 import com.autoNav.model.Offer;
-import com.autoNav.util.DBConnection;
 
 public class SubscriptionDAO {
 	public boolean addSubscription(int userId, int offerId) {

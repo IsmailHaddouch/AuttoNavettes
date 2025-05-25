@@ -1,4 +1,4 @@
-package com.autoNav.controller;
+package com.autoNav.servlets;
 
 import java.io.IOException;
 
